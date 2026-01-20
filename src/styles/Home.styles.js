@@ -12,11 +12,11 @@ export const styles = StyleSheet.create({
   content: {
     flex: 1,
     paddingHorizontal: 24,
-    paddingTop: 80,
+    paddingTop: 37,
     paddingBottom: 24,
   },
   header: {
-    marginBottom: 32,
+    marginBottom: 25,
   },
   title: {
     fontSize: 32,
@@ -67,7 +67,33 @@ export const styles = StyleSheet.create({
     borderRadius: 12,
     marginBottom: 24,
   },
-  convertButtonDisabled:{
+  convertButtonDisabled: {
     backgroundColor: colors.disable,
-  }
+  },
+  settingsButtom: {
+    position: "absolute",
+    right: 0,
+    top: 18,
+    backgroundColor: colors.cardBackground,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  headerTop: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  HomeButton: {
+    position: "absolute",
+    right: 0,
+    top: 10,
+    backgroundColor: colors.cardBackground,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    justifyContent: "center",
+    alignItems: "center",
+  },
 });
